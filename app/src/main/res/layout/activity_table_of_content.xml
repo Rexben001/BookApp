@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.android.rexben.bookapp.TableOfContent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table of Content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/table"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parable of the Kingdom  ................  1"
+        android:textSize="20sp"
+        android:id="@+id/parable"
+        android:layout_below="@id/table"
+        android:layout_marginTop="50dp"
+        android:onClick="parable"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twosome  .......................................  2"
+        android:textSize="20sp"
+        android:id="@+id/twosome"
+        android:layout_below="@id/parable"
+        android:layout_marginTop="15dp"
+        android:onClick="twosome"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard but not impossible  ................  3"
+        android:textSize="20sp"
+        android:id="@+id/hard"
+        android:layout_below="@id/twosome"
+        android:layout_marginTop="15dp"
+        android:onClick="hard"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who should name a child?  .............  4"
+        android:textSize="20sp"
+        android:id="@+id/child"
+        android:layout_below="@id/hard"
+        android:layout_marginTop="15dp"
+        android:onClick="child"
+        />
+
+
+</RelativeLayout>
